@@ -493,7 +493,7 @@
 				'minified': 'x=({foo=print}).foo("test")'
 			},
 			{
-				'description': 'BinaryExpression + MemberExpression + CallExpression',
+				'description': 'LogicalExpression in parenthesis + MemberExpression + CallExpression',
 				'original': '(x or y):f()',
 				'minified': '(x or y):f()'
 			}
